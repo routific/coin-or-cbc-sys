@@ -38,6 +38,13 @@ Something went wrong?
 For now there are only a couple very simple integration tests exercizing the
 bindings: `COIN_LIB_DIR=<SOME_PATH> cargo test -- --nocapture`.
 
+## License
+
+This library is distributed under the [MIT] license. Note that the CBC library
+itself is distributed under the [EPL].
+
+[EPL]: https://opensource.org/licenses/eclipse-1.0
+[MIT]: https://choosealicense.com/licenses/mit/
 [CBC]: https://github.com/coin-or/Cbc
 [coinbrew]: https://github.com/coin-or/coinbrew
 [build dependencies]: https://github.com/coin-or/COIN-OR-OptimizationSuite#building-from-source
