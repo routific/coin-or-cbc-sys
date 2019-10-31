@@ -29,9 +29,16 @@ Libraries have been installed in:
 
 Then you can build the library with `COIN_LIB_DIR=<SOME_PATH> cargo build`.
 
-Something went wrong?
-- check your version of [bash] to run the script
-- check that you have the proper [build dependencies]
+**Something went wrong?**
+- check your version of [bash] to run the script. You may need to update your bash on mac with:
+  ```sh
+  brew install bash
+  ```
+- check that you have the proper [build dependencies]. You may need to do:
+  ```sh
+  brew install gcc wget svn git
+  ```
+  to install dependencies, such as Fortran compiler which is required to build this lib.
 
 ## Testing
 
